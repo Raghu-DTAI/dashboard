@@ -29,5 +29,9 @@ terminologies=db.terminologies
 with st.expander('The number of terminologies extracted is'):
     st.write(f" There are {terminologies.count_documents({})} number of terminologies extracted")
 
+terminologies=db.terminologies
+with st.expander('The number of terminologies extracted is'):
+    st.write(f" There are {terminologies.count_documents({})} number of terminologies extracted")
+
 
 
